@@ -30,7 +30,7 @@ Declares the icon to use when representing an Entity.
 
 ##### TLDR;
 
-Use [`<link rel="prefetch" as="image" ...>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/prefetch) in metadata along with a speicific `data-` attribute to identify the Entity's type.
+Use [`<link rel="prefetch" as="image" ...>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/prefetch) in metadata along with a speicific `data-` attribute to identify the Entity and its type .
 
 
 ##### Entity Type and Identity
@@ -53,14 +53,14 @@ A `<link>` element with the following requirements:
 3. Must have its `as` attribute set to `"image"`.
 4. Must have its `href` attribute set to the URL of the Entity's icon.
 5. Must have one of the following data attributes defined:
-  - `data-caip-2` -- A [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) identifier in order to represent a blockchain's icon.
-  - `data-caip-10` -- A [CAIP-10](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-10.md) identifier in order to represent an account's icon, either for a non-token smart contract or an account owned by a human.
-  - `data-caip-19` -- A [CAIP-19](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-19.md) identifier in order to represent an asset, such as a chain's native currency, Layer 2 token, or NFT.
+   - `data-caip-2` -- a [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) identifier to represent a blockchain's icon.
+   - `data-caip-10` -- a [CAIP-10](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-10.md) identifier to represent an account's icon, either for a non-token smart contract or an account owned by a human.
+   - `data-caip-19` -- a [CAIP-19](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-19.md) identifier to represent an asset, such as a chain's native currency, Layer 2 token, or NFT.
 
 
 #### Reasoning
 
-Aside from being semantically correct, the `<link`> element also provides several benefits for App developers such as CORS and subresource integrity via the [integrity attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#attr-integrity), allowing you to safely host icons for your App and its smart contracts on a remote CDN.
+Aside from being semantically correct, the `<link>` element also provides several benefits for App developers such as CORS and subresource integrity via the [integrity attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#attr-integrity), allowing you to safely host Entity icon on a remote CDN.
 
 The [`prefetch` link type](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/prefetch) was deliberately selected for several reasons: (1) it allows the browser to make an informed decision about when to fetch the resource (2) it allows Wallets to fetch the resource from cache without leaking to the endpoint that the request originated from a Wallet, thus preventing remote extension sniffing.
 
@@ -264,16 +264,16 @@ A complete example of an App abiding to WHIP-003:
   <title>Homepage for MyApp: Doing Stuff Right</title>
 
   <!-- chain icon -->
-	<link rel="preload" as="image" href="/secret-network.svg" data-caip-2="cosmos:secret-4">
+  <link rel="preload" as="image" href="/secret-network.svg" data-caip-2="cosmos:secret-4">
 
   <!-- account icon for human contact -->
-	<link rel="preload" as="image" href="/spongebob.png" data-caip-10="cosmos:secret-4:secret1aqfw3gmp6h9e2ggtpmm7q245dwnyjggq7n32ag">
+  <link rel="preload" as="image" href="/spongebob.png" data-caip-10="cosmos:secret-4:secret1aqfw3gmp6h9e2ggtpmm7q245dwnyjggq7n32ag">
 
   <!-- account icon for native coin -->
-	<link rel="preload" as="image" href="/scrt.png" data-caip-19="cosmos:secret-4/slip44:529">
+  <link rel="preload" as="image" href="/scrt.png" data-caip-19="cosmos:secret-4/slip44:529">
 
   <!-- account icon for non-token smart contact -->
-	<link rel="preload" as="image" href="/auth.png" data-caip-10="cosmos:secret-4:secret10mtm48ul5mcgjj4hm0a4j3td4l5pt590erl3k9">
+  <link rel="preload" as="image" href="/auth.png" data-caip-10="cosmos:secret-4:secret10mtm48ul5mcgjj4hm0a4j3td4l5pt590erl3k9">
 
   <!-- account icon for token -->
   <link rel="preload" as="image" href="/susdc.svg" data-caip-19="cosmos:secret-4:snip20/secret1k0jntykt7e4g3y88ltc60czgjuqdy4c9e8fzek">
