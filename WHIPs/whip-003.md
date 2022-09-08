@@ -201,7 +201,7 @@ label = "MyApp Authenticator"
 [contracts.myTKN]
 chain = "cosmos:secret-4"
 address = "secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0"
-interfaces = [ "snip-20" ]
+interfaces = [ "snip20" ]
 name = "My Special Token"
 ```
 
@@ -239,7 +239,7 @@ Or, the exact same definitions in JSON:
     "myTKN": {
       "chain": "cosmos:secret-4",
       "address": "secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0",
-      "interfaces": [ "snip-20" ],
+      "interfaces": [ "snip20" ],
       "name": "My Special Token"
     }
   }
@@ -303,7 +303,7 @@ A complete example of an App abiding to WHIP-003:
     [contracts.myTKN]
     chain = "cosmos:secret-4"
     address = "secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0"
-    interfaces = [ "snip-20" ]
+    interfaces = [ "snip20" ]
     name = "My Special Token"
   </script>
 </head>
