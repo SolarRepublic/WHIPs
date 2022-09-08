@@ -121,8 +121,11 @@ type Slip44CoinTypeId = number;
 // /^([a-z]{0,3}[A-Z0-9]{1,12})([ .-_/!:+]{1,2}[a-z]{0,3}[A-Z0-9()[\]]{1,12}){0,2}$/
 type SymbolString = string;
 
-// Lowercase, hyphen-less token interface identifier, e.g., "erc20", "erc721", "snip20", "snip721", etc.
+// lowercase, hyphen-less token interface identifier, e.g., "erc20", "erc721", "snip20", "snip721", etc.
 type ContractInterfaceString = string;
+
+// the bech32 HRP string to use when prefixing account addresses
+type Bech32HrpString = string;
 
 
 /** WHIP-003 interface for Entity Definitions.
@@ -137,6 +140,9 @@ interface Whip003EntityDefinitions {
       namespace: Caip2NamespaceString;
       reference: Caip2ReferenceString;
       label?: string;
+      bech32s?: Bech32HrpString | {
+        [Space: string]: Bech32HrpString;
+      };
     };
   };
       
@@ -149,11 +155,11 @@ interface Whip003EntityDefinitions {
     };
   };
       
-  // corresponding icon will have `data-caip-19="{chain}/slip44:{slip44s[0]}"`
+  // corresponding icon will have `data-caip-19="{chain}/slip44:{slip44}"`
   coins?: {
     [Alias: string]: {
       chain: Caip2String;
-      slip44s: Array<Slip44CoinTypeId>;
+      slip44: Slip44CoinTypeId;
       symbol: SymbolString;
       label?: string;
     };
@@ -181,6 +187,7 @@ TOML is the preferred serialization format for its readability and ease-of-reuse
 namespace = "cosmos"
 reference = "secret-4"
 label = "Secret Network"
+bech32s = "secret"
 
 [accounts.spongebob]
 chain = "cosmos:secret-4"
@@ -189,7 +196,7 @@ label = "Spongebob Squarepants"
 
 [coins.scrt]
 chain = "cosmos:secret-4"
-slip44s = [ 529 ]
+slip44 = 529
 symbol = "SCRT"
 label = "Secret"
 
@@ -212,7 +219,8 @@ Or, the exact same definitions in JSON:
     "secret-network": {
       "namespace": "cosmos",
       "reference": "secret-4",
-      "label": "Secret Network"
+      "label": "Secret Network",
+      "bech32s": "secret"
     }
   },
   "accounts": {
@@ -225,7 +233,7 @@ Or, the exact same definitions in JSON:
   "coins": {
     "scrt": {
       "chain": "cosmos:secret-4",
-      "slip44s": [ 529 ],
+      "slip44": 529,
       "symbol": "SCRT",
       "label": "Secret"
     }
@@ -283,6 +291,7 @@ A complete example of an App abiding to WHIP-003:
     namespace = "cosmos"
     reference = "secret-4"
     label = "Secret Network"
+    bech32s = "secret"
 
     [accounts.spongebob]
     chain = "cosmos:secret-4"
@@ -291,7 +300,7 @@ A complete example of an App abiding to WHIP-003:
 
     [coins.scrt]
     chain = "cosmos:secret-4"
-    slip44s = [ 529 ]
+    slip44 = 529
     symbol = "SCRT"
     label = "Secret"
 
