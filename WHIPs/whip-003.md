@@ -272,19 +272,19 @@ A complete example of an App abiding to WHIP-003:
   <title>Homepage for MyApp: Doing Stuff Right</title>
 
   <!-- chain icon -->
-  <link rel="preload" as="image" href="/secret-network.svg" data-caip-2="cosmos:secret-4">
+  <link rel="prefetch" as="image" href="/secret-network.svg" data-caip-2="cosmos:secret-4">
 
   <!-- account icon for human contact -->
-  <link rel="preload" as="image" href="/spongebob.png" data-caip-10="cosmos:secret-4:secret1aqfw3gmp6h9e2ggtpmm7q245dwnyjggq7n32ag">
+  <link rel="prefetch" as="image" href="/spongebob.png" data-caip-10="cosmos:secret-4:secret1aqfw3gmp6h9e2ggtpmm7q245dwnyjggq7n32ag">
 
   <!-- asset icon for native coin -->
-  <link rel="preload" as="image" href="/scrt.png" data-caip-19="cosmos:secret-4/slip44:529">
+  <link rel="prefetch" as="image" href="/scrt.png" data-caip-19="cosmos:secret-4/slip44:529">
 
   <!-- account icon for non-token smart contact -->
-  <link rel="preload" as="image" href="/auth.png" data-caip-10="cosmos:secret-4:secret10mtm48ul5mcgjj4hm0a4j3td4l5pt590erl3k9">
+  <link rel="prefetch" as="image" href="/auth.png" data-caip-10="cosmos:secret-4:secret10mtm48ul5mcgjj4hm0a4j3td4l5pt590erl3k9">
 
   <!-- asset icon for token -->
-  <link rel="preload" as="image" href="/susdc.svg" data-caip-19="cosmos:secret-4:snip20/secret1k0jntykt7e4g3y88ltc60czgjuqdy4c9e8fzek">
+  <link rel="prefetch" as="image" href="/susdc.svg" data-caip-19="cosmos:secret-4:snip20/secret1k0jntykt7e4g3y88ltc60czgjuqdy4c9e8fzek">
 
   <!-- entity definitions, with an entry corresponding to each icon above -->
   <script type="application/toml" data-whip-003>
