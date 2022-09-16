@@ -127,6 +127,9 @@ type ContractInterfaceString = string;
 // the bech32 HRP string to use when prefixing account addresses
 type Bech32HrpString = string;
 
+// allows for arbitrary configs
+type Dictionary = Record<string, string>;
+
 
 /** WHIP-003 interface for Entity Definitions.
  * The interface consists of a set of optional dictionaries having the distinct keys: chains, accounts, coins, and contracts.
@@ -173,7 +176,7 @@ interface Whip003EntityDefinitions {
       chain: Caip2String;
       address: string;
       label?: string;
-      interfaces?: Array<ContractInterfaceString>;
+      interfaces?: Record<ContractInterfaceString, Dictionary>;
     };
   };
 }
@@ -208,8 +211,9 @@ label = "MyApp Authenticator"
 [contracts.myTKN]
 chain = "cosmos:secret-4"
 address = "secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0"
-interfaces = [ "snip20" ]
 label = "My Special Token"
+[contracts.myTKN.interfaces.snip20]
+symbol = "MYTKN"
 ```
 
 Or, the exact same definitions in JSON:
@@ -247,7 +251,11 @@ Or, the exact same definitions in JSON:
     "myTKN": {
       "chain": "cosmos:secret-4",
       "address": "secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0",
-      "interfaces": [ "snip20" ],
+      "interfaces": {
+        "snip20": {
+          "symbol": "MYTKN"
+        }
+      },
       "label": "My Special Token"
     }
   }
@@ -313,8 +321,9 @@ A complete example of an App abiding to WHIP-003:
     [contracts.myTKN]
     chain = "cosmos:secret-4"
     address = "secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0"
-    interfaces = [ "snip20" ]
     label = "My Special Token"
+    [contracts.myTKN.interfaces.snip20]
+    symbol = "MYTKN"
   </script>
 </head>
 <body>
