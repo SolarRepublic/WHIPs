@@ -64,7 +64,7 @@ Sets the icon that Wallets will use to represent your App to the end-user.
 
 ##### TLDR;
 
-Include an SVG [link icon](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel#attr-icon) in metadata to define a scalable icon for your App:
+Include an SVG [link icon](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel#attr-icon) in metadata to define a scalable icon for your App. Extra configurations are needed if the image is hosted on a different origin :
 ```html
   <!-- SVG allows Wallet to render your icon at its maximum resolution -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -83,6 +83,7 @@ A `<link>` element with the following requirements:
 2. Must have its `rel` attribute set to `"icon"`.
 3. Must have its `type` attribute set to the Media Type: `"image/svg+xml"`.
 4. Must have its `href` attribute set to the URL of the SVG.
+5. If the `href` attribute points to a different origin, then the `crossorigin` attribute must also be set.
 
 
 ##### Supplementals
@@ -97,6 +98,7 @@ const appIconUrl = document.head.querySelector('link[rel="icon"][type^="image/sv
 
 Some Apps might be unable to produce a scalable vector graphic if their icon only exists in raster form. As a fallback, Wallets may choose to use the highest resolution icon available in the metadata, but this behavior is up to the Wallet vendors and is outside the scope of this specification.
 
+For images hosted on a different origin, the [`crossorigin`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/crossOrigin) attribute is required to be set (any value is acceptable, but the empty string (`""`) is suggested). This ensures that wallets will be able to [draw the cross-origin SVG](https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image) to a canvas when rendering it at the desired sizes.
 
 ## Reasoning
 
@@ -146,3 +148,6 @@ A complete example of an App abiding to WHIP-002:
 
 - [Standard `application-name` metadata](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name)
 - [HTML link icon](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel#attr-icon)
+- [HTMLImageElement.crossOrigin](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/crossOrigin)
+- [Cross-origin use of images and canvas](https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image)
+- [Web app manifests](https://developer.mozilla.org/en-US/docs/Web/Manifest)
