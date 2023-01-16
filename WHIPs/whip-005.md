@@ -51,7 +51,7 @@ An `<input>` element with the following requirements:
 3. Must have its `data-whip-005-type` attribute set to `"account"`.
 4. Must have its `data-whip-005-chains` attribute set to a space-separated list of acceptable [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) identifiers.
 
-> NOTE: The `data-whip-005-chains` attribute may specify multiple chains, however this should only be used on a set of chains that have distinct Bech32 HRPs. For example, `"cosmos:cosmoshub-4 cosmos:secret-4"` is acceptable since "cosmos1" and "secret1" are mutually exclusive, however `"cosmos:secret-4 cosmos:pulsar-2"` is not acceptable since both chains use the "secret1" Bech32 HRP. Furthermore, `"eip155:1 eip155:56"` (Ethereum mainnet and BSC) is not acceptable since the address namespaces are indistinguishable.
+> NOTE: The `data-whip-005-chains` attribute may specify multiple chains, however this should only be used on a set of chains that have distinct Bech32 HRPs. For example, `"cosmos:cosmoshub-4 cosmos:secret-4"` is acceptable since "cosmos1" and "secret1" are distinct, however `"cosmos:secret-4 cosmos:pulsar-2"` is not acceptable because both chains use the "secret1" Bech32 HRP. Furthermore, `"eip155:1 eip155:56"` (Ethereum mainnet and BSC) is not acceptable since the address namespaces are non-existant and thus indistinguishable.
 
 
 ##### Supplementals
@@ -60,7 +60,7 @@ Wallets may use the following JavaScript snippet to obtain a list of autofillabl
 ```js
 const accountInputs = document.body.querySelectorAll('input[type="text"][data-whip-005-type="account"][data-whip-005-chains]');
 for(const accountInput of accountInputs) {
-  const caip2s = accountInput.dataset['whip-005Chains'].split(/\s+/g);
+  const caip2s = accountInput.dataset['whip-005Chains'].trim().split(/\s+/g);
 }
 ```
 
