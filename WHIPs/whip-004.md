@@ -23,8 +23,8 @@ WHIP-003 implementors may end up spending time writing declarations by hand and 
 ## Registry
 
 This registry consists of two parts:
-  -[Icons](#icons) - plug-and-play `<link>` elements that serve icons from GitHub CDN
-  -[Definitions](#definitions) - TOML blocks that can be copy-pasted into your head's TOML script content
+  - [Icons](#icons) - plug-and-play `<link>` elements that serve icons from GitHub CDN
+  - [Definitions](#definitions) - TOML blocks that can be copy-pasted into your head's TOML script content
 
 Apps should only copy those declarations for entities they intend to support so that clients do not load the prefetch icons unnecessarily.
 
@@ -33,7 +33,7 @@ Apps should only copy those declarations for entities they intend to support so 
 
 > Never embed SVGs directly into the HTML of your app since they can become XSS vectors, always use `<link>` or `<img>` tags. Setting a rigid [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) will also help protect against XSS attacks.
 
-Icons for the entity declarations are located under the adjacent [./whip-004](./whip-044) subdirectory, allowing them to also be hosted from GitHub's `raw.githubusercontent.com` CDN.
+Icons for the entity declarations are located under the adjacent [./whip-004](./whip-004) subdirectory, allowing them to also be hosted from GitHub's `raw.githubusercontent.com` CDN.
 
 Remember that these elements belong in the `<head>` of your HTML document.
 
