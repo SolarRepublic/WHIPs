@@ -26,3 +26,4 @@ The general motivation for this body of standards is to improve the security, pr
 | [WHIP-000](WHIPs/whip-000.md) | WHIP Template                                                         | Informational | Draft     |
 | [WHIP-002](WHIPs/whip-002.md) | App Profiling in HTML Metadata                                        | Standard      | Draft     |
 | [WHIP-003](WHIPs/whip-003.md) | Entity Declarations in HTML Metadata                                  | Standard      | Draft     |
+| [WHIP-004](WHIPs/whip-004.md) | Registry of Common Entity Declarations                                | Registry      | Draft     |
