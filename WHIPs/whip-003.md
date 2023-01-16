@@ -73,18 +73,21 @@ Wallets may use the following JavaScript snippet to obtain the URL of an Entity'
 const chainIcons = document.head.querySelectorAll('link[rel="prefetch"][as="image"][href][data-caip-2]');
 for(const chainIcon of chainIcons) {
   const chainIconUrl = chainIcon.href;
+  const caip2 = chainIcon.dataset['caip-2'];
 }
 
 // accounts use CAIP-10
 const accountIcons = document.head.querySelectorAll('link[rel="prefetch"][as="image"][href][data-caip-10]');
 for(const accountIcon of accountIcons) {
   const accountIconUrl = accountIcon.href;
+  const caip10 = chainIcon.dataset['caip-10'];
 }
 
 // assets use CAIP-19
 const assetIcons = document.head.querySelectorAll('link[rel="prefetch"][as="image"][href][data-caip-19]');
 for(const assetIcon of assetIcons) {
   const assetIconUrl = assetIcon.href;
+  const caip19 = chainIcon.dataset['caip-19'];
 }
 ```
 
