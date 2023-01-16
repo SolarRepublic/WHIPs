@@ -48,6 +48,10 @@ Combined:
 <link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/aave.svg" data-caip-19="cosmos:secret-4:snip20/secret1yxwnyk8htvvq25x2z87yj0r5tqpev452fk6h5h">
 
 
+<!-- sBLD - Agoric -->
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/bld.svg" data-caip-19="cosmos:secret-4:snip20/secret1rw2l7z22s3ed6dl5v70ktvnckhurldy23a3a58">
+
+
 <!-- sAKT - Akash -->
 <link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/akt.svg" data-caip-19="cosmos:secret-4:snip20/secret168j5f78magfce5r2j4etaytyuy7ftjkh4cndqw">
 
@@ -92,6 +96,10 @@ Combined:
 <link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/atom.svg" data-caip-19="cosmos:secret-4:snip20/secret14mzwd0ps5q277l20ly2q3aetqe3ev4m4260gf4">
 
 
+<!-- sCRE - Crescent -->
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/cre.svg" data-caip-19="cosmos:secret-4:snip20/secret1tatdlkyznf00m3a7hftw5daaq2nk38ugfphuyr">
+
+
 <!-- sDAI - Dai -->
 <link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/dai.svg" data-caip-19="cosmos:secret-4:snip20/secret1vnjck36ld45apf8u4fedxd5zy7f5l92y3w5qwq">
 
@@ -112,12 +120,28 @@ Combined:
 <link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/evmos.svg" data-caip-19="cosmos:secret-4:snip20/secret1grg9unv2ue8cf98t50ea45prce7gcrj2n232kq">
 
 
+<!-- sGRAV - Gravity Bridge -->
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/grav.svg" data-caip-19="cosmos:secret-4:snip20/secret1dtghxvrx35nznt8es3fwxrv4qh56tvxv22z79d">
+
+
+<!-- sINJ - Injective -->
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/inj.svg" data-caip-19="cosmos:secret-4:snip20/secret16cwf53um7hgdvepfp3jwdzvwkt5qe2f9vfkuwv">
+
+
+<!-- sIST - Inter-stable token -->
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/ist.png" data-caip-19="cosmos:secret-4:snip20/secret1kjqktuq2wq6mk7l0ecvk2cwcskjmv3ghpklctn">
+
+
 <!-- sJUNO - Juno -->
 <link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/juno.svg" data-caip-19="cosmos:secret-4:snip20/secret1smmc5k24lcn4j2j8f3w0yaeafga6wmzl0qct03">
 
 
 <!-- sKUJI - Kujira -->
 <link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/kuji.svg" data-caip-19="cosmos:secret-4:snip20/secret1gaew7k9tv4hlx2f4wq4ta4utggj4ywpkjysqe8">
+
+
+<!-- sLUNA - Terra -->
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/luna.svg" data-caip-19="cosmos:secret-4:snip20/secret1w8d0ntrhrys4yzcfxnwprts7gfg5gfw86ccdpf">
 
 
 <!-- sXMR - Monero -->
@@ -130,6 +154,14 @@ Combined:
 
 <!-- sOSMO - Osmosis -->
 <link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/osmo.svg" data-caip-19="cosmos:secret-4:snip20/secret1zwwealwm0pcl9cul4nt6f38dsy6vzplw8lp3qg">
+
+
+<!-- sROWAN - Sifchain -->
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/rowan.svg" data-caip-19="cosmos:secret-4:snip20/secret159p22zvq2wzsdtqhm2plp4wg33srxp2hf0qudc">
+
+
+<!-- sSTRD - Stride -->
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/strd.png" data-caip-19="cosmos:secret-4:snip20/secret17gg8xcx04ldqkvkrd7r9w60rdae4ck8aslt9cf">
 
 
 <!-- sDOT(BSC) - Polkadot (BSC) -->
@@ -225,6 +257,15 @@ address = "secret1yxwnyk8htvvq25x2z87yj0r5tqpev452fk6h5h"
 label = "Aave"
 [contracts.cosmos_secret-4_saave.snip20]
 symbol = "sAAVE"
+
+
+# sBLD - Agoric
+[contracts.cosmos_secret-4_sbld]
+chain = "cosmos:secret-4"
+address = "secret1rw2l7z22s3ed6dl5v70ktvnckhurldy23a3a58"
+label = "Agoric"
+[contracts.cosmos_secret-4_sbld.snip20]
+symbol = "sBLD"
 
 
 # sAKT - Akash
@@ -326,6 +367,15 @@ label = "Cosmos Hub"
 symbol = "sATOM"
 
 
+# sCRE - Crescent
+[contracts.cosmos_secret-4_scre]
+chain = "cosmos:secret-4"
+address = "secret1tatdlkyznf00m3a7hftw5daaq2nk38ugfphuyr"
+label = "Crescent"
+[contracts.cosmos_secret-4_scre.snip20]
+symbol = "sCRE"
+
+
 # sDAI - Dai
 [contracts.cosmos_secret-4_sdai]
 chain = "cosmos:secret-4"
@@ -369,6 +419,33 @@ address = "secret1grg9unv2ue8cf98t50ea45prce7gcrj2n232kq"
 label = "Evmos"
 [contracts.cosmos_secret-4_sevmos.snip20]
 symbol = "sEVMOS"
+
+
+# sGRAV - Gravity Bridge
+[contracts.cosmos_secret-4_sgrav]
+chain = "cosmos:secret-4"
+address = "secret1dtghxvrx35nznt8es3fwxrv4qh56tvxv22z79d"
+label = "Gravity Bridge"
+[contracts.cosmos_secret-4_sgrav.snip20]
+symbol = "sGRAV"
+
+
+# sINJ - Injective
+[contracts.cosmos_secret-4_sinj]
+chain = "cosmos:secret-4"
+address = "secret16cwf53um7hgdvepfp3jwdzvwkt5qe2f9vfkuwv"
+label = "Injective"
+[contracts.cosmos_secret-4_sinj.snip20]
+symbol = "sINJ"
+
+
+# sIST - Inter-stable token
+[contracts.cosmos_secret-4_sist]
+chain = "cosmos:secret-4"
+address = "secret1kjqktuq2wq6mk7l0ecvk2cwcskjmv3ghpklctn"
+label = "Inter-stable token"
+[contracts.cosmos_secret-4_sist.snip20]
+symbol = "sIST"
 
 
 # sJUNO - Juno
@@ -470,6 +547,15 @@ label = "Sienna"
 symbol = "SIENNA"
 
 
+# sROWAN - Sifchain
+[contracts.cosmos_secret-4_srowan]
+chain = "cosmos:secret-4"
+address = "secret159p22zvq2wzsdtqhm2plp4wg33srxp2hf0qudc"
+label = "Sifchain"
+[contracts.cosmos_secret-4_srowan.snip20]
+symbol = "sROWAN"
+
+
 # stkd-SCRT - Staked SCRT Derivative (Shade)
 [contracts.cosmos_secret-4_stkd-scrt]
 chain = "cosmos:secret-4"
@@ -495,6 +581,24 @@ address = "secret1x0dqckf2khtxyrjwhlkrx9lwwmz44k24vcv2vv"
 label = "Stargaze"
 [contracts.cosmos_secret-4_sstars.snip20]
 symbol = "sSTARS"
+
+
+# sSTRD - Stride
+[contracts.cosmos_secret-4_sstrd]
+chain = "cosmos:secret-4"
+address = "secret17gg8xcx04ldqkvkrd7r9w60rdae4ck8aslt9cf"
+label = "Stride"
+[contracts.cosmos_secret-4_sstrd.snip20]
+symbol = "sSTRD"
+
+
+# sLUNA - Terra
+[contracts.cosmos_secret-4_sluna]
+chain = "cosmos:secret-4"
+address = "secret1w8d0ntrhrys4yzcfxnwprts7gfg5gfw86ccdpf"
+label = "Terra"
+[contracts.cosmos_secret-4_sluna.snip20]
+symbol = "sLUNA"
 
 
 # sUSDT - Tether
