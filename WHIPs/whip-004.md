@@ -246,7 +246,7 @@ Combined:
 chain = "cosmos:secret-4"
 address = "secret1k0jntykt7e4g3y88ltc60czgjuqdy4c9e8fzek"
 label = "Secret Secret"
-[contracts.cosmos_secret-4_sscrt.snip20]
+[contracts.cosmos_secret-4_sscrt.interfaces.snip20]
 symbol = "sSCRT"
 
 
@@ -255,7 +255,7 @@ symbol = "sSCRT"
 chain = "cosmos:secret-4"
 address = "secret1yxwnyk8htvvq25x2z87yj0r5tqpev452fk6h5h"
 label = "Aave"
-[contracts.cosmos_secret-4_saave.snip20]
+[contracts.cosmos_secret-4_saave.interfaces.snip20]
 symbol = "sAAVE"
 
 
@@ -264,7 +264,7 @@ symbol = "sAAVE"
 chain = "cosmos:secret-4"
 address = "secret1rw2l7z22s3ed6dl5v70ktvnckhurldy23a3a58"
 label = "Agoric"
-[contracts.cosmos_secret-4_sbld.snip20]
+[contracts.cosmos_secret-4_sbld.interfaces.snip20]
 symbol = "sBLD"
 
 
@@ -273,7 +273,7 @@ symbol = "sBLD"
 chain = "cosmos:secret-4"
 address = "secret168j5f78magfce5r2j4etaytyuy7ftjkh4cndqw"
 label = "Akash"
-[contracts.cosmos_secret-4_sakt.snip20]
+[contracts.cosmos_secret-4_sakt.interfaces.snip20]
 symbol = "sAKT"
 
 
@@ -282,7 +282,7 @@ symbol = "sAKT"
 chain = "cosmos:secret-4"
 address = "secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej"
 label = "Alter"
-[contracts.cosmos_secret-4_alter.snip20]
+[contracts.cosmos_secret-4_alter.interfaces.snip20]
 symbol = "ALTER"
 
 
@@ -291,7 +291,7 @@ symbol = "ALTER"
 chain = "cosmos:secret-4"
 address = "secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852"
 label = "Amber"
-[contracts.cosmos_secret-4_amber.snip20]
+[contracts.cosmos_secret-4_amber.interfaces.snip20]
 symbol = "AMBER"
 
 
@@ -300,25 +300,25 @@ symbol = "AMBER"
 chain = "cosmos:secret-4"
 address = "secret1p4zvqgxggrrk435nj94p6la2g4xd0rwssgzpsr"
 label = "Band Protocol"
-[contracts.cosmos_secret-4_sband.snip20]
+[contracts.cosmos_secret-4_sband.interfaces.snip20]
 symbol = "sBAND"
 
 
 # sBNB(BSC) - Binance Coin
-[contracts.cosmos_secret-4_sbnb(bsc)]
+[contracts.cosmos_secret-4_sbnb_bsc]
 chain = "cosmos:secret-4"
 address = "secret1tact8rxxrvynk4pwukydnle4l0pdmj0sq9j9d5"
 label = "Binance Coin"
-[contracts.cosmos_secret-4_sbnb(bsc).snip20]
+[contracts.cosmos_secret-4_sbnb_bsc.interfaces.snip20]
 symbol = "sBNB(BSC)"
 
 
 # sBUSD(BSC) - Binance USD (BSC)
-[contracts.cosmos_secret-4_sbusd(bsc)]
+[contracts.cosmos_secret-4_sbusd_bsc]
 chain = "cosmos:secret-4"
 address = "secret1793ctg56epnzjlv7t7mug2tv3s2zylhqssyjwe"
 label = "Binance USD (BSC)"
-[contracts.cosmos_secret-4_sbusd(bsc).snip20]
+[contracts.cosmos_secret-4_sbusd_bsc.interfaces.snip20]
 symbol = "sBUSD(BSC)"
 
 
@@ -327,16 +327,16 @@ symbol = "sBUSD(BSC)"
 chain = "cosmos:secret-4"
 address = "secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt"
 label = "Button"
-[contracts.cosmos_secret-4_butt.snip20]
+[contracts.cosmos_secret-4_butt.interfaces.snip20]
 symbol = "BUTT"
 
 
 # sADA(BSC) - Cardano (BSC)
-[contracts.cosmos_secret-4_sada(bsc)]
+[contracts.cosmos_secret-4_sada_bsc]
 chain = "cosmos:secret-4"
 address = "secret1t6228qgqgkwhnsegk84ahljgw2cj7f9xprk9zd"
 label = "Cardano (BSC)"
-[contracts.cosmos_secret-4_sada(bsc).snip20]
+[contracts.cosmos_secret-4_sada_bsc.interfaces.snip20]
 symbol = "sADA(BSC)"
 
 
@@ -345,7 +345,7 @@ symbol = "sADA(BSC)"
 chain = "cosmos:secret-4"
 address = "secret1xcrf2vvxcz8dhtgzgsd0zmzlf9g320ea2rhdjw"
 label = "Chainlink"
-[contracts.cosmos_secret-4_slink.snip20]
+[contracts.cosmos_secret-4_slink.interfaces.snip20]
 symbol = "sLINK"
 
 
@@ -354,7 +354,7 @@ symbol = "sLINK"
 chain = "cosmos:secret-4"
 address = "secret1ntvxnf5hzhzv8g87wn76ch6yswdujqlgmjh32w"
 label = "Chihuahua"
-[contracts.cosmos_secret-4_shuahua.snip20]
+[contracts.cosmos_secret-4_shuahua.interfaces.snip20]
 symbol = "sHUAHUA"
 
 
@@ -363,7 +363,7 @@ symbol = "sHUAHUA"
 chain = "cosmos:secret-4"
 address = "secret14mzwd0ps5q277l20ly2q3aetqe3ev4m4260gf4"
 label = "Cosmos Hub"
-[contracts.cosmos_secret-4_satom.snip20]
+[contracts.cosmos_secret-4_satom.interfaces.snip20]
 symbol = "sATOM"
 
 
@@ -372,7 +372,7 @@ symbol = "sATOM"
 chain = "cosmos:secret-4"
 address = "secret1tatdlkyznf00m3a7hftw5daaq2nk38ugfphuyr"
 label = "Crescent"
-[contracts.cosmos_secret-4_scre.snip20]
+[contracts.cosmos_secret-4_scre.interfaces.snip20]
 symbol = "sCRE"
 
 
@@ -381,7 +381,7 @@ symbol = "sCRE"
 chain = "cosmos:secret-4"
 address = "secret1vnjck36ld45apf8u4fedxd5zy7f5l92y3w5qwq"
 label = "Dai"
-[contracts.cosmos_secret-4_sdai.snip20]
+[contracts.cosmos_secret-4_sdai.interfaces.snip20]
 symbol = "sDAI"
 
 
@@ -390,7 +390,7 @@ symbol = "sDAI"
 chain = "cosmos:secret-4"
 address = "secret178t2cp33hrtlthphmt9lpd25qet349mg4kcega"
 label = "Decentraland"
-[contracts.cosmos_secret-4_smana.snip20]
+[contracts.cosmos_secret-4_smana.interfaces.snip20]
 symbol = "sMANA"
 
 
@@ -399,16 +399,16 @@ symbol = "sMANA"
 chain = "cosmos:secret-4"
 address = "secret1wuzzjsdhthpvuyeeyhfq2ftsn3mvwf9rxy6ykw"
 label = "Ethereum"
-[contracts.cosmos_secret-4_seth.snip20]
+[contracts.cosmos_secret-4_seth.interfaces.snip20]
 symbol = "sETH"
 
 
 # sETH(BSC) - Ethereum (BSC)
-[contracts.cosmos_secret-4_seth(bsc)]
+[contracts.cosmos_secret-4_seth_bsc]
 chain = "cosmos:secret-4"
 address = "secret1m6a72200733a7jnm76xrznh9cpmt4kf5ql0a6t"
 label = "Ethereum (BSC)"
-[contracts.cosmos_secret-4_seth(bsc).snip20]
+[contracts.cosmos_secret-4_seth_bsc.interfaces.snip20]
 symbol = "sETH(BSC)"
 
 
@@ -417,7 +417,7 @@ symbol = "sETH(BSC)"
 chain = "cosmos:secret-4"
 address = "secret1grg9unv2ue8cf98t50ea45prce7gcrj2n232kq"
 label = "Evmos"
-[contracts.cosmos_secret-4_sevmos.snip20]
+[contracts.cosmos_secret-4_sevmos.interfaces.snip20]
 symbol = "sEVMOS"
 
 
@@ -426,7 +426,7 @@ symbol = "sEVMOS"
 chain = "cosmos:secret-4"
 address = "secret1dtghxvrx35nznt8es3fwxrv4qh56tvxv22z79d"
 label = "Gravity Bridge"
-[contracts.cosmos_secret-4_sgrav.snip20]
+[contracts.cosmos_secret-4_sgrav.interfaces.snip20]
 symbol = "sGRAV"
 
 
@@ -435,7 +435,7 @@ symbol = "sGRAV"
 chain = "cosmos:secret-4"
 address = "secret16cwf53um7hgdvepfp3jwdzvwkt5qe2f9vfkuwv"
 label = "Injective"
-[contracts.cosmos_secret-4_sinj.snip20]
+[contracts.cosmos_secret-4_sinj.interfaces.snip20]
 symbol = "sINJ"
 
 
@@ -444,7 +444,7 @@ symbol = "sINJ"
 chain = "cosmos:secret-4"
 address = "secret1kjqktuq2wq6mk7l0ecvk2cwcskjmv3ghpklctn"
 label = "Inter-stable token"
-[contracts.cosmos_secret-4_sist.snip20]
+[contracts.cosmos_secret-4_sist.interfaces.snip20]
 symbol = "sIST"
 
 
@@ -453,7 +453,7 @@ symbol = "sIST"
 chain = "cosmos:secret-4"
 address = "secret1smmc5k24lcn4j2j8f3w0yaeafga6wmzl0qct03"
 label = "Juno"
-[contracts.cosmos_secret-4_sjuno.snip20]
+[contracts.cosmos_secret-4_sjuno.interfaces.snip20]
 symbol = "sJUNO"
 
 
@@ -462,7 +462,7 @@ symbol = "sJUNO"
 chain = "cosmos:secret-4"
 address = "secret1gaew7k9tv4hlx2f4wq4ta4utggj4ywpkjysqe8"
 label = "Kujira"
-[contracts.cosmos_secret-4_skuji.snip20]
+[contracts.cosmos_secret-4_skuji.interfaces.snip20]
 symbol = "sKUJI"
 
 
@@ -471,7 +471,7 @@ symbol = "sKUJI"
 chain = "cosmos:secret-4"
 address = "secret19ungtd2c7srftqdwgq0dspwvrw63dhu79qxv88"
 label = "Monero"
-[contracts.cosmos_secret-4_sxmr.snip20]
+[contracts.cosmos_secret-4_sxmr.interfaces.snip20]
 symbol = "sXMR"
 
 
@@ -480,7 +480,7 @@ symbol = "sXMR"
 chain = "cosmos:secret-4"
 address = "secret12sjaw9wutn39cc5wqxfmkypm4n7tcerwfpvmps"
 label = "Ocean Protocol"
-[contracts.cosmos_secret-4_socean.snip20]
+[contracts.cosmos_secret-4_socean.interfaces.snip20]
 symbol = "sOCEAN"
 
 
@@ -489,16 +489,16 @@ symbol = "sOCEAN"
 chain = "cosmos:secret-4"
 address = "secret1zwwealwm0pcl9cul4nt6f38dsy6vzplw8lp3qg"
 label = "Osmosis"
-[contracts.cosmos_secret-4_sosmo.snip20]
+[contracts.cosmos_secret-4_sosmo.interfaces.snip20]
 symbol = "sOSMO"
 
 
 # sDOT(BSC) - Polkadot (BSC)
-[contracts.cosmos_secret-4_sdot(bsc)]
+[contracts.cosmos_secret-4_sdot_bsc]
 chain = "cosmos:secret-4"
 address = "secret1px5mtmjh072znpez4fjpmxqsv3hpevdpyu9l4v"
 label = "Polkadot (BSC)"
-[contracts.cosmos_secret-4_sdot(bsc).snip20]
+[contracts.cosmos_secret-4_sdot_bsc.interfaces.snip20]
 symbol = "sDOT(BSC)"
 
 
@@ -507,16 +507,16 @@ symbol = "sDOT(BSC)"
 chain = "cosmos:secret-4"
 address = "secret1vcm525c3gd9g5ggfqg7d20xcjnmcc8shh902un"
 label = "ReserveRights"
-[contracts.cosmos_secret-4_srsr.snip20]
+[contracts.cosmos_secret-4_srsr.interfaces.snip20]
 symbol = "sRSR"
 
 
 # sSCRT(BSC) - Secret (BSC)
-[contracts.cosmos_secret-4_sscrt(bsc)]
+[contracts.cosmos_secret-4_sscrt_bsc]
 chain = "cosmos:secret-4"
 address = "secret1c7apt5mmv9ma5dpa9tmwjunhhke9de2206ufyp"
 label = "Secret (BSC)"
-[contracts.cosmos_secret-4_sscrt(bsc).snip20]
+[contracts.cosmos_secret-4_sscrt_bsc.interfaces.snip20]
 symbol = "sSCRT(BSC)"
 
 
@@ -525,7 +525,7 @@ symbol = "sSCRT(BSC)"
 chain = "cosmos:secret-4"
 address = "secret1k8cge73c3nh32d4u0dsd5dgtmk63shtlrfscj5"
 label = "Sentinel"
-[contracts.cosmos_secret-4_sdvpn.snip20]
+[contracts.cosmos_secret-4_sdvpn.interfaces.snip20]
 symbol = "sDVPN"
 
 
@@ -534,7 +534,7 @@ symbol = "sDVPN"
 chain = "cosmos:secret-4"
 address = "secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d"
 label = "Shade"
-[contracts.cosmos_secret-4_shd.snip20]
+[contracts.cosmos_secret-4_shd.interfaces.snip20]
 symbol = "SHD"
 
 
@@ -543,7 +543,7 @@ symbol = "SHD"
 chain = "cosmos:secret-4"
 address = "secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4"
 label = "Sienna"
-[contracts.cosmos_secret-4_sienna.snip20]
+[contracts.cosmos_secret-4_sienna.interfaces.snip20]
 symbol = "SIENNA"
 
 
@@ -552,7 +552,7 @@ symbol = "SIENNA"
 chain = "cosmos:secret-4"
 address = "secret159p22zvq2wzsdtqhm2plp4wg33srxp2hf0qudc"
 label = "Sifchain"
-[contracts.cosmos_secret-4_srowan.snip20]
+[contracts.cosmos_secret-4_srowan.interfaces.snip20]
 symbol = "sROWAN"
 
 
@@ -561,7 +561,7 @@ symbol = "sROWAN"
 chain = "cosmos:secret-4"
 address = "secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4"
 label = "Staked SCRT Derivative (Shade)"
-[contracts.cosmos_secret-4_stkd-scrt.snip20]
+[contracts.cosmos_secret-4_stkd-scrt.interfaces.snip20]
 symbol = "stkd-SCRT"
 
 
@@ -570,7 +570,7 @@ symbol = "stkd-SCRT"
 chain = "cosmos:secret-4"
 address = "secret16zfat8th6hvzhesj8f6rz3vzd7ll69ys580p2t"
 label = "StakeEasy staked SCRT"
-[contracts.cosmos_secret-4_sescrt.snip20]
+[contracts.cosmos_secret-4_sescrt.interfaces.snip20]
 symbol = "seSCRT"
 
 
@@ -579,7 +579,7 @@ symbol = "seSCRT"
 chain = "cosmos:secret-4"
 address = "secret1x0dqckf2khtxyrjwhlkrx9lwwmz44k24vcv2vv"
 label = "Stargaze"
-[contracts.cosmos_secret-4_sstars.snip20]
+[contracts.cosmos_secret-4_sstars.interfaces.snip20]
 symbol = "sSTARS"
 
 
@@ -588,7 +588,7 @@ symbol = "sSTARS"
 chain = "cosmos:secret-4"
 address = "secret17gg8xcx04ldqkvkrd7r9w60rdae4ck8aslt9cf"
 label = "Stride"
-[contracts.cosmos_secret-4_sstrd.snip20]
+[contracts.cosmos_secret-4_sstrd.interfaces.snip20]
 symbol = "sSTRD"
 
 
@@ -597,7 +597,7 @@ symbol = "sSTRD"
 chain = "cosmos:secret-4"
 address = "secret1w8d0ntrhrys4yzcfxnwprts7gfg5gfw86ccdpf"
 label = "Terra"
-[contracts.cosmos_secret-4_sluna.snip20]
+[contracts.cosmos_secret-4_sluna.interfaces.snip20]
 symbol = "sLUNA"
 
 
@@ -606,16 +606,16 @@ symbol = "sLUNA"
 chain = "cosmos:secret-4"
 address = "secret18wpjn83dayu4meu6wnn29khfkwdxs7kyrz9c8f"
 label = "Tether"
-[contracts.cosmos_secret-4_susdt.snip20]
+[contracts.cosmos_secret-4_susdt.interfaces.snip20]
 symbol = "sUSDT"
 
 
 # sUSDT(BSC) - Tether (BSC)
-[contracts.cosmos_secret-4_susdt(bsc)]
+[contracts.cosmos_secret-4_susdt_bsc]
 chain = "cosmos:secret-4"
 address = "secret16euwqyntvsp0fp2rstmggw77w5xgz2z26cpwxj"
 label = "Tether (BSC)"
-[contracts.cosmos_secret-4_susdt(bsc).snip20]
+[contracts.cosmos_secret-4_susdt_bsc.interfaces.snip20]
 symbol = "sUSDT(BSC)"
 
 
@@ -624,7 +624,7 @@ symbol = "sUSDT(BSC)"
 chain = "cosmos:secret-4"
 address = "secret1el5uj9ns9sty682dem033pt50xsv5mklmsvy24"
 label = "THORChain"
-[contracts.cosmos_secret-4_srune.snip20]
+[contracts.cosmos_secret-4_srune.interfaces.snip20]
 symbol = "sRUNE"
 
 
@@ -633,7 +633,7 @@ symbol = "sRUNE"
 chain = "cosmos:secret-4"
 address = "secret1ds8850j99cf5h3hygy25f0zzs6r6s7vsgfs8te"
 label = "Uniswap"
-[contracts.cosmos_secret-4_suni.snip20]
+[contracts.cosmos_secret-4_suni.interfaces.snip20]
 symbol = "sUNI"
 
 
@@ -642,16 +642,16 @@ symbol = "sUNI"
 chain = "cosmos:secret-4"
 address = "secret1h6z05y90gwm4sqxzhz4pkyp36cna9xtp7q0urv"
 label = "USD Coin"
-[contracts.cosmos_secret-4_susdc.snip20]
+[contracts.cosmos_secret-4_susdc.interfaces.snip20]
 symbol = "sUSDC"
 
 
 # sUSDC(BSC) - USD Coin (BSC)
-[contracts.cosmos_secret-4_susdc(bsc)]
+[contracts.cosmos_secret-4_susdc_bsc]
 chain = "cosmos:secret-4"
 address = "secret1kf45vm4mg5004pgajuplcmkrzvsyp2qtvlklyg"
 label = "USD Coin (BSC)"
-[contracts.cosmos_secret-4_susdc(bsc).snip20]
+[contracts.cosmos_secret-4_susdc_bsc.interfaces.snip20]
 symbol = "sUSDC(BSC)"
 
 
@@ -660,7 +660,7 @@ symbol = "sUSDC(BSC)"
 chain = "cosmos:secret-4"
 address = "secret1g7jfnxmxkjgqdts9wlmn238mrzxz5r92zwqv4a"
 label = "Wrapped BTC"
-[contracts.cosmos_secret-4_swbtc.snip20]
+[contracts.cosmos_secret-4_swbtc.interfaces.snip20]
 symbol = "sWBTC"
 
 
@@ -669,7 +669,7 @@ symbol = "sWBTC"
 chain = "cosmos:secret-4"
 address = "secret15grq8y54tvc24j8hf8chunsdcr84fd3d30fvqv"
 label = "yearn.finance"
-[contracts.cosmos_secret-4_syfi.snip20]
+[contracts.cosmos_secret-4_syfi.interfaces.snip20]
 symbol = "sYFI"
 
 ```
