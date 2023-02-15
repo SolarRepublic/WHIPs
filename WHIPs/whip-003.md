@@ -9,6 +9,16 @@ Authors: Blake Regalia (@blake-regalia)
 Created: 2022-09-01
 ```
 
+## Table of Contents
+ - [Abstract](#abstract)
+ - [Motivation](#motivation)
+ - [Specification](#specification)
+   - [1. Entity Icons](#1-entity-icons)
+   - [2. Entity Definitions](#2-entity-definitions)
+ - [Backwards Compatibility](#backwards-compatibility)
+ - [Examples](#examples)
+ - [References](#references)
+
 
 ## Abstract
 
