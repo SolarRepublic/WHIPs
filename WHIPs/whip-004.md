@@ -41,195 +41,195 @@ Combined:
 ```html
 
 <!-- sSCRT - Secret Secret -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/sscrt.svg" data-caip-19="cosmos:secret-4:snip20/secret1k0jntykt7e4g3y88ltc60czgjuqdy4c9e8fzek">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/sscrt.svg" data-caip-19="cosmos:secret-4/snip20:secret1k0jntykt7e4g3y88ltc60czgjuqdy4c9e8fzek">
 
 
 <!-- sAAVE - Aave -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/aave.svg" data-caip-19="cosmos:secret-4:snip20/secret1yxwnyk8htvvq25x2z87yj0r5tqpev452fk6h5h">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/aave.svg" data-caip-19="cosmos:secret-4/snip20:secret1yxwnyk8htvvq25x2z87yj0r5tqpev452fk6h5h">
 
 
 <!-- sBLD - Agoric -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/bld.svg" data-caip-19="cosmos:secret-4:snip20/secret1rw2l7z22s3ed6dl5v70ktvnckhurldy23a3a58">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/bld.svg" data-caip-19="cosmos:secret-4/snip20:secret1rw2l7z22s3ed6dl5v70ktvnckhurldy23a3a58">
 
 
 <!-- sAKT - Akash -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/akt.svg" data-caip-19="cosmos:secret-4:snip20/secret168j5f78magfce5r2j4etaytyuy7ftjkh4cndqw">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/akt.svg" data-caip-19="cosmos:secret-4/snip20:secret168j5f78magfce5r2j4etaytyuy7ftjkh4cndqw">
 
 
 <!-- ALTER - Alter -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/alter.svg" data-caip-19="cosmos:secret-4:snip20/secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/alter.svg" data-caip-19="cosmos:secret-4/snip20:secret12rcvz0umvk875kd6a803txhtlu7y0pnd73kcej">
 
 
 <!-- AMBER - Amber -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/amber.svg" data-caip-19="cosmos:secret-4:snip20/secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/amber.svg" data-caip-19="cosmos:secret-4/snip20:secret1s09x2xvfd2lp2skgzm29w2xtena7s8fq98v852">
 
 
 <!-- sBAND - Band Protocol -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/band.svg" data-caip-19="cosmos:secret-4:snip20/secret1p4zvqgxggrrk435nj94p6la2g4xd0rwssgzpsr">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/band.svg" data-caip-19="cosmos:secret-4/snip20:secret1p4zvqgxggrrk435nj94p6la2g4xd0rwssgzpsr">
 
 
 <!-- sBNB(BSC) - Binance Coin -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/bnb.svg" data-caip-19="cosmos:secret-4:snip20/secret1tact8rxxrvynk4pwukydnle4l0pdmj0sq9j9d5">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/bnb.svg" data-caip-19="cosmos:secret-4/snip20:secret1tact8rxxrvynk4pwukydnle4l0pdmj0sq9j9d5">
 
 
 <!-- sBUSD(BSC) - Binance USD (BSC) -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/busd.svg" data-caip-19="cosmos:secret-4:snip20/secret1793ctg56epnzjlv7t7mug2tv3s2zylhqssyjwe">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/busd.svg" data-caip-19="cosmos:secret-4/snip20:secret1793ctg56epnzjlv7t7mug2tv3s2zylhqssyjwe">
 
 
 <!-- BUTT - Button -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/butt.svg" data-caip-19="cosmos:secret-4:snip20/secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/butt.svg" data-caip-19="cosmos:secret-4/snip20:secret1yxcexylwyxlq58umhgsjgstgcg2a0ytfy4d9lt">
 
 
 <!-- sADA(BSC) - Cardano (BSC) -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/ada.svg" data-caip-19="cosmos:secret-4:snip20/secret1t6228qgqgkwhnsegk84ahljgw2cj7f9xprk9zd">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/ada.svg" data-caip-19="cosmos:secret-4/snip20:secret1t6228qgqgkwhnsegk84ahljgw2cj7f9xprk9zd">
 
 
 <!-- sLINK - Chainlink -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/link.svg" data-caip-19="cosmos:secret-4:snip20/secret1xcrf2vvxcz8dhtgzgsd0zmzlf9g320ea2rhdjw">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/link.svg" data-caip-19="cosmos:secret-4/snip20:secret1xcrf2vvxcz8dhtgzgsd0zmzlf9g320ea2rhdjw">
 
 
 <!-- sHUAHUA - Chihuahua -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/huahua.svg" data-caip-19="cosmos:secret-4:snip20/secret1ntvxnf5hzhzv8g87wn76ch6yswdujqlgmjh32w">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/huahua.svg" data-caip-19="cosmos:secret-4/snip20:secret1ntvxnf5hzhzv8g87wn76ch6yswdujqlgmjh32w">
 
 
 <!-- sATOM - Cosmos Hub -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/atom.svg" data-caip-19="cosmos:secret-4:snip20/secret14mzwd0ps5q277l20ly2q3aetqe3ev4m4260gf4">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/atom.svg" data-caip-19="cosmos:secret-4/snip20:secret14mzwd0ps5q277l20ly2q3aetqe3ev4m4260gf4">
 
 
 <!-- sCRE - Crescent -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/cre.svg" data-caip-19="cosmos:secret-4:snip20/secret1tatdlkyznf00m3a7hftw5daaq2nk38ugfphuyr">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/cre.svg" data-caip-19="cosmos:secret-4/snip20:secret1tatdlkyznf00m3a7hftw5daaq2nk38ugfphuyr">
 
 
 <!-- sDAI - Dai -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/dai.svg" data-caip-19="cosmos:secret-4:snip20/secret1vnjck36ld45apf8u4fedxd5zy7f5l92y3w5qwq">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/dai.svg" data-caip-19="cosmos:secret-4/snip20:secret1vnjck36ld45apf8u4fedxd5zy7f5l92y3w5qwq">
 
 
 <!-- sMANA - Decentraland -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/mana.svg" data-caip-19="cosmos:secret-4:snip20/secret178t2cp33hrtlthphmt9lpd25qet349mg4kcega">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/mana.svg" data-caip-19="cosmos:secret-4/snip20:secret178t2cp33hrtlthphmt9lpd25qet349mg4kcega">
 
 
 <!-- sETH - Ethereum -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/eth.svg" data-caip-19="cosmos:secret-4:snip20/secret1wuzzjsdhthpvuyeeyhfq2ftsn3mvwf9rxy6ykw">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/eth.svg" data-caip-19="cosmos:secret-4/snip20:secret1wuzzjsdhthpvuyeeyhfq2ftsn3mvwf9rxy6ykw">
 
 
 <!-- sETH(BSC) - Ethereum (BSC) -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/eth.svg" data-caip-19="cosmos:secret-4:snip20/secret1m6a72200733a7jnm76xrznh9cpmt4kf5ql0a6t">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/eth.svg" data-caip-19="cosmos:secret-4/snip20:secret1m6a72200733a7jnm76xrznh9cpmt4kf5ql0a6t">
 
 
 <!-- sEVMOS - Evmos -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/evmos.svg" data-caip-19="cosmos:secret-4:snip20/secret1grg9unv2ue8cf98t50ea45prce7gcrj2n232kq">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/evmos.svg" data-caip-19="cosmos:secret-4/snip20:secret1grg9unv2ue8cf98t50ea45prce7gcrj2n232kq">
 
 
 <!-- sGRAV - Gravity Bridge -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/grav.svg" data-caip-19="cosmos:secret-4:snip20/secret1dtghxvrx35nznt8es3fwxrv4qh56tvxv22z79d">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/grav.svg" data-caip-19="cosmos:secret-4/snip20:secret1dtghxvrx35nznt8es3fwxrv4qh56tvxv22z79d">
 
 
 <!-- sINJ - Injective -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/inj.svg" data-caip-19="cosmos:secret-4:snip20/secret16cwf53um7hgdvepfp3jwdzvwkt5qe2f9vfkuwv">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/inj.svg" data-caip-19="cosmos:secret-4/snip20:secret16cwf53um7hgdvepfp3jwdzvwkt5qe2f9vfkuwv">
 
 
 <!-- sIST - Inter-stable token -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/ist.png" data-caip-19="cosmos:secret-4:snip20/secret1kjqktuq2wq6mk7l0ecvk2cwcskjmv3ghpklctn">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/ist.png" data-caip-19="cosmos:secret-4/snip20:secret1kjqktuq2wq6mk7l0ecvk2cwcskjmv3ghpklctn">
 
 
 <!-- sJUNO - Juno -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/juno.svg" data-caip-19="cosmos:secret-4:snip20/secret1smmc5k24lcn4j2j8f3w0yaeafga6wmzl0qct03">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/juno.svg" data-caip-19="cosmos:secret-4/snip20:secret1smmc5k24lcn4j2j8f3w0yaeafga6wmzl0qct03">
 
 
 <!-- sKUJI - Kujira -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/kuji.svg" data-caip-19="cosmos:secret-4:snip20/secret1gaew7k9tv4hlx2f4wq4ta4utggj4ywpkjysqe8">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/kuji.svg" data-caip-19="cosmos:secret-4/snip20:secret1gaew7k9tv4hlx2f4wq4ta4utggj4ywpkjysqe8">
 
 
 <!-- sLUNA - Terra -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/luna.svg" data-caip-19="cosmos:secret-4:snip20/secret1w8d0ntrhrys4yzcfxnwprts7gfg5gfw86ccdpf">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/luna.svg" data-caip-19="cosmos:secret-4/snip20:secret1w8d0ntrhrys4yzcfxnwprts7gfg5gfw86ccdpf">
 
 
 <!-- sXMR - Monero -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/xmr.svg" data-caip-19="cosmos:secret-4:snip20/secret19ungtd2c7srftqdwgq0dspwvrw63dhu79qxv88">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/xmr.svg" data-caip-19="cosmos:secret-4/snip20:secret19ungtd2c7srftqdwgq0dspwvrw63dhu79qxv88">
 
 
 <!-- sOCEAN - Ocean Protocol -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/ocean.svg" data-caip-19="cosmos:secret-4:snip20/secret12sjaw9wutn39cc5wqxfmkypm4n7tcerwfpvmps">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/ocean.svg" data-caip-19="cosmos:secret-4/snip20:secret12sjaw9wutn39cc5wqxfmkypm4n7tcerwfpvmps">
 
 
 <!-- sOSMO - Osmosis -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/osmo.svg" data-caip-19="cosmos:secret-4:snip20/secret1zwwealwm0pcl9cul4nt6f38dsy6vzplw8lp3qg">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/osmo.svg" data-caip-19="cosmos:secret-4/snip20:secret1zwwealwm0pcl9cul4nt6f38dsy6vzplw8lp3qg">
 
 
 <!-- sROWAN - Sifchain -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/rowan.svg" data-caip-19="cosmos:secret-4:snip20/secret159p22zvq2wzsdtqhm2plp4wg33srxp2hf0qudc">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/rowan.svg" data-caip-19="cosmos:secret-4/snip20:secret159p22zvq2wzsdtqhm2plp4wg33srxp2hf0qudc">
 
 
 <!-- sSTRD - Stride -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/strd.png" data-caip-19="cosmos:secret-4:snip20/secret17gg8xcx04ldqkvkrd7r9w60rdae4ck8aslt9cf">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/strd.png" data-caip-19="cosmos:secret-4/snip20:secret17gg8xcx04ldqkvkrd7r9w60rdae4ck8aslt9cf">
 
 
 <!-- sDOT(BSC) - Polkadot (BSC) -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/dot.svg" data-caip-19="cosmos:secret-4:snip20/secret1px5mtmjh072znpez4fjpmxqsv3hpevdpyu9l4v">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/dot.svg" data-caip-19="cosmos:secret-4/snip20:secret1px5mtmjh072znpez4fjpmxqsv3hpevdpyu9l4v">
 
 
 <!-- sRSR - ReserveRights -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/rsr.svg" data-caip-19="cosmos:secret-4:snip20/secret1vcm525c3gd9g5ggfqg7d20xcjnmcc8shh902un">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/rsr.svg" data-caip-19="cosmos:secret-4/snip20:secret1vcm525c3gd9g5ggfqg7d20xcjnmcc8shh902un">
 
 
 <!-- sSCRT(BSC) - Secret (BSC) -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/scrt.svg" data-caip-19="cosmos:secret-4:snip20/secret1c7apt5mmv9ma5dpa9tmwjunhhke9de2206ufyp">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/scrt.svg" data-caip-19="cosmos:secret-4/snip20:secret1c7apt5mmv9ma5dpa9tmwjunhhke9de2206ufyp">
 
 
 <!-- sDVPN - Sentinel -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/dvpn.png" data-caip-19="cosmos:secret-4:snip20/secret1k8cge73c3nh32d4u0dsd5dgtmk63shtlrfscj5">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/dvpn.png" data-caip-19="cosmos:secret-4/snip20:secret1k8cge73c3nh32d4u0dsd5dgtmk63shtlrfscj5">
 
 
 <!-- SHD - Shade -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/shd.svg" data-caip-19="cosmos:secret-4:snip20/secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/shd.svg" data-caip-19="cosmos:secret-4/snip20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d">
 
 
 <!-- SIENNA - Sienna -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/sienna.svg" data-caip-19="cosmos:secret-4:snip20/secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/sienna.svg" data-caip-19="cosmos:secret-4/snip20:secret1rgm2m5t530tdzyd99775n6vzumxa5luxcllml4">
 
 
 <!-- stkd-SCRT - Staked SCRT Derivative (Shade) -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/stkd-scrt.svg" data-caip-19="cosmos:secret-4:snip20/secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/stkd-scrt.svg" data-caip-19="cosmos:secret-4/snip20:secret1k6u0cy4feepm6pehnz804zmwakuwdapm69tuc4">
 
 
 <!-- seSCRT - StakeEasy staked SCRT -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/sescrt.png" data-caip-19="cosmos:secret-4:snip20/secret16zfat8th6hvzhesj8f6rz3vzd7ll69ys580p2t">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/sescrt.png" data-caip-19="cosmos:secret-4/snip20:secret16zfat8th6hvzhesj8f6rz3vzd7ll69ys580p2t">
 
 
 <!-- sSTARS - Stargaze -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/stars.svg" data-caip-19="cosmos:secret-4:snip20/secret1x0dqckf2khtxyrjwhlkrx9lwwmz44k24vcv2vv">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/stars.svg" data-caip-19="cosmos:secret-4/snip20:secret1x0dqckf2khtxyrjwhlkrx9lwwmz44k24vcv2vv">
 
 
 <!-- sUSDT - Tether -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/usdt.svg" data-caip-19="cosmos:secret-4:snip20/secret18wpjn83dayu4meu6wnn29khfkwdxs7kyrz9c8f">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/usdt.svg" data-caip-19="cosmos:secret-4/snip20:secret18wpjn83dayu4meu6wnn29khfkwdxs7kyrz9c8f">
 
 
 <!-- sUSDT(BSC) - Tether (BSC) -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/usdt.svg" data-caip-19="cosmos:secret-4:snip20/secret16euwqyntvsp0fp2rstmggw77w5xgz2z26cpwxj">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/usdt.svg" data-caip-19="cosmos:secret-4/snip20:secret16euwqyntvsp0fp2rstmggw77w5xgz2z26cpwxj">
 
 
 <!-- sRUNE - THORChain -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/rune.svg" data-caip-19="cosmos:secret-4:snip20/secret1el5uj9ns9sty682dem033pt50xsv5mklmsvy24">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/rune.svg" data-caip-19="cosmos:secret-4/snip20:secret1el5uj9ns9sty682dem033pt50xsv5mklmsvy24">
 
 
 <!-- sUNI - Uniswap -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/uni.svg" data-caip-19="cosmos:secret-4:snip20/secret1ds8850j99cf5h3hygy25f0zzs6r6s7vsgfs8te">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/uni.svg" data-caip-19="cosmos:secret-4/snip20:secret1ds8850j99cf5h3hygy25f0zzs6r6s7vsgfs8te">
 
 
 <!-- sUSDC - USD Coin -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/usdc.svg" data-caip-19="cosmos:secret-4:snip20/secret1h6z05y90gwm4sqxzhz4pkyp36cna9xtp7q0urv">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/usdc.svg" data-caip-19="cosmos:secret-4/snip20:secret1h6z05y90gwm4sqxzhz4pkyp36cna9xtp7q0urv">
 
 
 <!-- sUSDC(BSC) - USD Coin (BSC) -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/usdc.svg" data-caip-19="cosmos:secret-4:snip20/secret1kf45vm4mg5004pgajuplcmkrzvsyp2qtvlklyg">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/usdc.svg" data-caip-19="cosmos:secret-4/snip20:secret1kf45vm4mg5004pgajuplcmkrzvsyp2qtvlklyg">
 
 
 <!-- sWBTC - Wrapped BTC -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/wbtc.svg" data-caip-19="cosmos:secret-4:snip20/secret1g7jfnxmxkjgqdts9wlmn238mrzxz5r92zwqv4a">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/wbtc.svg" data-caip-19="cosmos:secret-4/snip20:secret1g7jfnxmxkjgqdts9wlmn238mrzxz5r92zwqv4a">
 
 
 <!-- sYFI - yearn.finance -->
-<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/yfi.svg" data-caip-19="cosmos:secret-4:snip20/secret15grq8y54tvc24j8hf8chunsdcr84fd3d30fvqv">
+<link rel="prefetch" as="image" href="https://raw.githubusercontent.com/SolarRepublic/WHIPs/main/WHIPs/whip-004/yfi.svg" data-caip-19="cosmos:secret-4/snip20:secret15grq8y54tvc24j8hf8chunsdcr84fd3d30fvqv">
 
 ```
 

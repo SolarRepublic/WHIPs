@@ -185,6 +185,64 @@ interface Whip003EntityDefinitions {
 }
 ```
 
+
+#### Declaration Precedence
+
+If multiple declarations are made for the [same entity](#entity-identity), Wallets must give precedence to the declaration that came first. In other words, subsequent re-declarations should not overwrite previously declared ones. This rule applies to both icons and definitions.
+
+For example, with icons:
+```html
+<head>
+  <title>Pepe's Contact Info</title>
+
+  <!-- Pepe's account icon -->
+  <link rel="prefetch" as="image" href="/pepe-smiling.svg" data-caip-10="cosmos:secret-4:secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0">
+
+  <!-- this icon link refers to the same account, but provides a different image; it should be ignored -->
+  <link rel="prefetch" as="image" href="/pepe-frowning.svg" data-caip-10="cosmos:secret-4:secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0">
+</head>
+```
+
+Or, with definitions:
+```html
+<head>
+  <title>Pepe's Contact Info</title>
+
+  <!-- Pepe's account definition -->
+  <script type="application/toml">
+    [accounts.pepe]
+    chain = "cosmos:secret-4"
+    address = "secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0"
+    label = "Pepe the Frog"
+  </script>
+
+  <!-- this remote definitions set may include a definition for Pepe's account address, but it must not override the preceeding definition -->
+  <script type="application/toml" src="/more-definitions.toml"></script>
+</head>
+```
+
+
+#### Entity Identity
+
+Deducing whether or not two declarations refer to the same entity is done by comparing their identities. An entity's identity is determined by their full CAIP identifier.
+
+For example, take the following icons:
+```html
+<!-- Icon A -->
+<link rel="prefetch" as="image" href="/fire.svg" data-caip-10="cosmos:secret-4:secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0">
+
+<!-- Icon B -->
+<link rel="prefetch" as="image" href="/water.svg" data-caip-10="cosmos:secret-4:secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0">
+
+<!-- Icon C -->
+<link rel="prefetch" as="image" href="/earth.svg" data-caip-19="cosmos:secret-4/snip20:secret1dfdv860jwy0zq686zcaejl0s0c3axwgxy6xcc0">
+```
+
+Notice that all three icons use the same Bech32 address. However, only `Icon A` and `Icon B` have the same entity identity. `Icon C` has a different identity because it's CAIP identifier differs due to the asset type production `/snip20`.
+
+For definitions, the CAIP identifier is constructed by following the same logic described in the comments of the `Whip003EntityDefinitions` TypeScript interface.
+
+
 ##### Example
 
 TOML is the preferred serialization format for its readability and ease-of-reuse. An example WHIP-003 declaration in TOML:
@@ -295,7 +353,7 @@ A complete example of an App abiding to WHIP-003:
   <link rel="prefetch" as="image" href="/auth.png" data-caip-10="cosmos:secret-4:secret10mtm48ul5mcgjj4hm0a4j3td4l5pt590erl3k9">
 
   <!-- asset icon for token -->
-  <link rel="prefetch" as="image" href="/susdc.svg" data-caip-19="cosmos:secret-4:snip20/secret1k0jntykt7e4g3y88ltc60czgjuqdy4c9e8fzek">
+  <link rel="prefetch" as="image" href="/susdc.svg" data-caip-19="cosmos:secret-4/snip20:secret1k0jntykt7e4g3y88ltc60czgjuqdy4c9e8fzek">
 
   <!-- entity definitions, with an entry corresponding to each icon above -->
   <script type="application/toml" data-whip-003>
